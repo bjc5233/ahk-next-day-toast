@@ -11,10 +11,8 @@
    例如我的配置是：触发器每日10：05，操作"C:\Program Files\AutoHotkey\AutoHotkeyU64.exe" "C:\path\toast\nextDayToast\nextDay.ahk"
 
 ## 预览
-<div align=center><img width="300" src="https://github.com/bjc5233/next-day-toast/raw/master/resources/nextDay20170706.png"/></div>
-
-![](https://github.com/bjc5233/next-day-toast/raw/master/resources/nextDay20170706.png)
-![](https://github.com/bjc5233/next-day-toast/raw/master/resources/nextDay20170704.png)
+<div align=center><img src="https://github.com/bjc5233/next-day-toast/raw/master/resources/nextDay20170706.png"/></div>
+<div align=center><img src="https://github.com/bjc5233/next-day-toast/raw/master/resources/nextDay20170704.png"/></div>
 
 
 
