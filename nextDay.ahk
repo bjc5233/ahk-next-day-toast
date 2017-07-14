@@ -14,7 +14,6 @@ dayStr := dateArray3
 
 
 
-
 ; ========================= 下载json并解析 =========================
 jsonFilePath = %A_Temp%\nextDay%dateStr%.json
 IfNotExist, %jsonFilePath%
@@ -62,11 +61,11 @@ code =
 [Windows.Data.Xml.Dom.XmlDocument, Windows.Data.Xml.Dom.XmlDocument, ContentType = WindowsRuntime] | Out-Null
 $APP_ID = ' '
 $template = @"
-<toast activationType="protocol" launch="" duration="short" displayTimestamp="2017-04-15T19:45:00Z">
+<toast activationType="protocol" launch="" duration="long" displayTimestamp="2017-04-15T19:45:00Z">
     <visual>
         <binding template="ToastGeneric">
             <image placement="hero" src="file:///%imgFilePath%"/>
-            <image placement="appLogoOverride" src="C:/path/toast/task/milk.png" />
+            <image placement="appLogoOverride" src="C:/path/toast/nextDayToast/milk.png" />
             <image placement="inline" src="file:///%imgFilePath%"/>
             
 
