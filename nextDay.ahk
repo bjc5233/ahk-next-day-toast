@@ -18,7 +18,6 @@ dayStr := dateArray3
 jsonFilePath = %A_Temp%\nextDay%dateStr%.json
 IfNotExist, %jsonFilePath%
     URLDownloadToFile http://nichijou.in/LastDay/%yearStr%/%monthStr%/%dayStr%.json, %jsonFilePath%
-ToolTip, JSON文件格式错误，请检查[%jsonFilePath%]
 FileEncoding, UTF-8
 file := FileOpen(jsonFilePath, "r")
 if !IsObject(file)
