@@ -2,7 +2,7 @@
 > 很喜欢一个next-day的应用，最初是在Ami桌面上见到，每天很清新，非常喜欢，是与next-day官方合作的，可以这个桌面后来不维护了（猜测）。 在github上有公开[API](https://github.com/NXMIX/nextday-public-api)。 目前采用的接口是这个[手机应用客户端项目的接口](https://github.com/sanddudu/nextday-desktop)。 以后再调整到官方的接口
 
 ## 说明
->自动下载next-day每日图文，并以系统toast消息形式展示；建议将脚本配置到系统定时任务中，让其自动执行
+> 自动下载next-day每日图文，并以系统toast消息形式展示；建议将脚本配置到系统定时任务中，让其自动执行
 ---
 使用步骤
 * 安装autohotkey
