@@ -3,6 +3,7 @@
 
 ## 说明
 自动下载next-day每日图文，并以系统toast消息形式展示；建议将脚本配置到系统定时任务中，让其自动执行
+---
 使用步骤
 * 安装autohotkey
 * 修改nextDay.ahk中行<image placement="appLogoOverride" src="C:/path/toast/task/milk.png" />，将这个图片地址修改为本地绝对图片路径
