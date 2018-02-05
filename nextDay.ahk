@@ -64,14 +64,11 @@ $template = @"
     <visual>
         <binding template="ToastGeneric">
             <image placement="hero" src="file:///%imgFilePath%"/>
-            <image placement="appLogoOverride" src="C:/path/toast/nextDayToast/milk.png" />
+            <image placement="appLogoOverride" src="file:///%A_ScriptDir%/milk.png" />
             <image placement="inline" src="file:///%imgFilePath%"/>
-            
-
             <text><![CDATA[%comment1%]]></text>
             <text><![CDATA[%comment2%]]></text>
-			
-			
+            
             <group>
                 <subgroup>
                     <text hint-style="captionSubtle" hint-align="right">%dateStr%</text>
@@ -88,7 +85,7 @@ $xml.LoadXml($template)
 $toast = New-Object Windows.UI.Notifications.ToastNotification $xml
 [Windows.UI.Notifications.ToastNotificationManager]::CreateToastNotifier($APP_ID).Show($toast)
 )
-FileDelete, %A_Temp%\everyNHourPicToast.ps1
-FileAppend, %code% , %A_Temp%\everyNHourPicToast.ps1
-run, PowerShell -ExecutionPolicy Bypass -File %A_Temp%\everyNHourPicToast.ps1 ,, Hide
+FileDelete, %A_Temp%\nextDayToast.ps1
+FileAppend, %code% , %A_Temp%\nextDayToast.ps1
+run, PowerShell -ExecutionPolicy Bypass -File %A_Temp%\nextDayToast.ps1 ,, Hide
 ; ========================= 通过powershell发送toast =========================
