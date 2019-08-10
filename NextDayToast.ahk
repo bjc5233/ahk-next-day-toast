@@ -64,7 +64,7 @@ $template = @"
     <visual>
         <binding template="ToastGeneric">
             <image placement="hero" src="file:///%imgFilePath%"/>
-            <image placement="appLogoOverride" src="file:///%A_ScriptDir%/milk.png" />
+            <image placement="appLogoOverride" src="file:///%A_ScriptDir%/resources/milk.png" />
             <image placement="inline" src="file:///%imgFilePath%"/>
             <text><![CDATA[%comment1%]]></text>
             <text><![CDATA[%comment2%]]></text>
